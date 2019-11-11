@@ -66,7 +66,7 @@ namespace ComputerVision
             unsafe
             {
                 PixelData* pBase = (PixelData*) shadowCopybitmapData.Scan0;
-                PixelData* pPixel = pBase + point.X * currentBitmapWidth + point.Y;
+                PixelData* pPixel = pBase + point.Y * currentBitmapWidth + point.X;
                 color = Color.FromArgb(pPixel->red, pPixel->green, pPixel->blue);
             }
 
@@ -90,7 +90,7 @@ namespace ComputerVision
             unsafe
             {
                 PixelData* pBase = (PixelData*) bitmapData.Scan0;
-                PixelData* pPixel = pBase + point.X * currentBitmapWidth + point.Y;
+                PixelData* pPixel = pBase + point.Y * currentBitmapWidth + point.X;
                 pPixel->red = c.R;
                 pPixel->green = c.G;
                 pPixel->blue = c.B;

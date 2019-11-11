@@ -2,74 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1701178-9c14-4cc5-b4d6-f3696b52c6d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ComputerVision/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ComputerVision/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ComputerVision/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ComputerVision/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ComputerVision/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ComputerVision/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ComputerVision/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ComputerVision/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/ComputerVision/v16/.suo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/ComputerVision/v16/Server/sqlite3/db.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/ComputerVision/v16/Server/sqlite3/storage.ide" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backup/ComputerVision.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backup/ComputerVision/ComputerVision.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backup/ComputerVision/FastImage.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backup/ComputerVision/MainForm.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backup/ComputerVision/MainForm.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backup/ComputerVision/MainForm.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backup/ComputerVision/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backup/ComputerVision/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backup/ComputerVision/Properties/Resources.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backup/ComputerVision/Properties/Resources.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backup/ComputerVision/Properties/Settings.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backup/ComputerVision/Properties/Settings.settings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision.suo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/ComputerVision.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/FastImage.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/Images/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/Images/tiger.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/Images/wolf.bmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/MainForm.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/MainForm.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/MainForm.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/Operations/BasicAlgorithm.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/Operations/Markov.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/Properties/Resources.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/Properties/Resources.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/Properties/Settings.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/Properties/Settings.settings" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/Resources/ImageUtil.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/bin/Debug/ComputerVision.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/bin/Debug/ComputerVision.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/bin/Debug/ComputerVision.vshost.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/bin/Debug/ImageUtil.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/bin/Release/ComputerVision.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/bin/Release/ComputerVision.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/bin/Release/ImageUtil.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/obj/ComputerVision.csproj.FileList.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/obj/Debug/ComputerVision.MainForm.resources" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/obj/Debug/ComputerVision.Properties.Resources.resources" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/obj/Debug/ComputerVision.csproj.CopyComplete" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/obj/Debug/ComputerVision.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/obj/Debug/ComputerVision.csproj.GenerateResource.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/obj/Debug/ComputerVision.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/obj/Debug/ComputerVision.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/obj/Debug/ComputerVision.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/obj/Debug/DesignTimeResolveAssemblyReferences.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/obj/Debug/ResolveAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/obj/Debug/TempPE/Properties.Resources.Designer.cs.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/obj/Release/ComputerVision.MainForm.resources" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/obj/Release/ComputerVision.Properties.Resources.resources" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/obj/Release/ComputerVision.csproj.GenerateResource.Cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/obj/Release/ComputerVision.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/obj/Release/ComputerVision.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UpgradeLog.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ComputerVision/Operations/FTS.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ComputerVision/Operations/UnsharpMasking.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ComputerVision/utils/Utils.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ComputerVision/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ComputerVision/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ComputerVision/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ComputerVision/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ComputerVision/ComputerVision.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerVision/ComputerVision.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ComputerVision/FastImage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerVision/FastImage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ComputerVision/MainForm.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerVision/MainForm.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ComputerVision/MainForm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerVision/MainForm.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ComputerVision/bin/Debug/ComputerVision.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerVision/bin/Debug/ComputerVision.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ComputerVision/bin/Debug/ComputerVision.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerVision/bin/Debug/ComputerVision.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ComputerVision/obj/Debug/ComputerVision.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerVision/obj/Debug/ComputerVision.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ComputerVision/obj/Debug/ComputerVision.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerVision/obj/Debug/ComputerVision.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ComputerVision/obj/Debug/ComputerVision.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerVision/obj/Debug/ComputerVision.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,9 +27,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ComputerVision/Operations/UnsharpMasking.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ComputerVision/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ComputerVision/utils/Utils.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ComputerVision/MainForm.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ComputerVision/Operations/Markov.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ComputerVision/Operations/FTS.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ComputerVision/FastImage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ComputerVision/Operations/BasicAlgorithm.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -92,9 +41,14 @@
       <list>
         <option value="$PROJECT_DIR$/ComputerVision/Operations/BasicAlghoritm.cs" />
         <option value="$PROJECT_DIR$/ComputerVision/Operations/BasicAlgorithm.cs" />
+        <option value="$PROJECT_DIR$/ComputerVision/Operations/Markov.cs" />
+        <option value="$PROJECT_DIR$/ComputerVision/Utils/Clamp.cs" />
+        <option value="$PROJECT_DIR$/ComputerVision/Utils/Utils.cs" />
+        <option value="$PROJECT_DIR$/ComputerVision/utils/Utils.cs" />
+        <option value="$PROJECT_DIR$/ComputerVision/Operations/FTS.cs" />
         <option value="$PROJECT_DIR$/ComputerVision/FastImage.cs" />
         <option value="$PROJECT_DIR$/ComputerVision/MainForm.cs" />
-        <option value="$PROJECT_DIR$/ComputerVision/Operations/Markov.cs" />
+        <option value="$PROJECT_DIR$/ComputerVision/Operations/UnsharpMasking.cs" />
       </list>
     </option>
   </component>
@@ -148,21 +102,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572873213815</updated>
-      <workItem from="1572873215277" duration="5294000" />
+      <workItem from="1572873215277" duration="6620000" />
+      <workItem from="1573471168013" duration="5328000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

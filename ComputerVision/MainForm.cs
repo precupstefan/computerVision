@@ -59,7 +59,17 @@ namespace ComputerVision
 
         private void MarkovButton_Click(object sender, EventArgs e)
         {
-            panelDestination.BackgroundImage =new Markov().Compute(workImage);
+            panelDestination.BackgroundImage = new Markov().Compute(workImage);
+        }
+
+        private void FtsButton_Click(object sender, EventArgs e)
+        {
+            panelDestination.BackgroundImage = new FTS().Compute(workImage);
+        }
+
+        private void UnsharpMaskingButton_Click(object sender, EventArgs e)
+        {
+            panelDestination.BackgroundImage = new UnsharpMasking().Compute(workImage);
         }
     }
 }

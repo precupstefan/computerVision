@@ -32,56 +32,101 @@ namespace ComputerVision
             this.panelDestination = new System.Windows.Forms.Panel();
             this.buttonLoad = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.FtsButton = new System.Windows.Forms.Button();
             this.MarkovButton = new System.Windows.Forms.Button();
             this.buttonGrayscale = new System.Windows.Forms.Button();
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
+            this.UnsharpMaskingButton = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // panelSource
+            // 
             this.panelSource.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panelSource.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panelSource.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.panelSource.Location = new System.Drawing.Point(12, 12);
+            this.panelSource.Location = new System.Drawing.Point(14, 14);
             this.panelSource.Name = "panelSource";
-            this.panelSource.Size = new System.Drawing.Size(320, 240);
+            this.panelSource.Size = new System.Drawing.Size(373, 276);
             this.panelSource.TabIndex = 0;
+            // 
+            // panelDestination
+            // 
             this.panelDestination.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panelDestination.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panelDestination.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.panelDestination.Location = new System.Drawing.Point(348, 12);
+            this.panelDestination.Location = new System.Drawing.Point(406, 14);
             this.panelDestination.Name = "panelDestination";
-            this.panelDestination.Size = new System.Drawing.Size(320, 240);
+            this.panelDestination.Size = new System.Drawing.Size(373, 276);
             this.panelDestination.TabIndex = 1;
-            this.buttonLoad.Location = new System.Drawing.Point(12, 439);
+            // 
+            // buttonLoad
+            // 
+            this.buttonLoad.Location = new System.Drawing.Point(14, 507);
             this.buttonLoad.Name = "buttonLoad";
-            this.buttonLoad.Size = new System.Drawing.Size(75, 23);
+            this.buttonLoad.Size = new System.Drawing.Size(87, 27);
             this.buttonLoad.TabIndex = 2;
             this.buttonLoad.Text = "Load";
             this.buttonLoad.UseVisualStyleBackColor = true;
             this.buttonLoad.Click += new System.EventHandler(this.buttonLoad_Click);
+            // 
+            // panel1
+            // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.UnsharpMaskingButton);
+            this.panel1.Controls.Add(this.FtsButton);
             this.panel1.Controls.Add(this.MarkovButton);
             this.panel1.Controls.Add(this.buttonGrayscale);
-            this.panel1.Location = new System.Drawing.Point(348, 271);
+            this.panel1.Location = new System.Drawing.Point(406, 313);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(320, 190);
+            this.panel1.Size = new System.Drawing.Size(373, 219);
             this.panel1.TabIndex = 3;
-            this.MarkovButton.Location = new System.Drawing.Point(7, 126);
+            // 
+            // FtsButton
+            // 
+            this.FtsButton.Location = new System.Drawing.Point(8, 112);
+            this.FtsButton.Name = "FtsButton";
+            this.FtsButton.Size = new System.Drawing.Size(86, 27);
+            this.FtsButton.TabIndex = 14;
+            this.FtsButton.Text = "FTS";
+            this.FtsButton.UseVisualStyleBackColor = true;
+            this.FtsButton.Click += new System.EventHandler(this.FtsButton_Click);
+            // 
+            // MarkovButton
+            // 
+            this.MarkovButton.Location = new System.Drawing.Point(8, 145);
             this.MarkovButton.Name = "MarkovButton";
-            this.MarkovButton.Size = new System.Drawing.Size(75, 23);
+            this.MarkovButton.Size = new System.Drawing.Size(87, 27);
             this.MarkovButton.TabIndex = 4;
             this.MarkovButton.Text = "Markov";
             this.MarkovButton.UseVisualStyleBackColor = true;
             this.MarkovButton.Click += new System.EventHandler(this.MarkovButton_Click);
-            this.buttonGrayscale.Location = new System.Drawing.Point(7, 155);
+            // 
+            // buttonGrayscale
+            // 
+            this.buttonGrayscale.Location = new System.Drawing.Point(8, 179);
             this.buttonGrayscale.Name = "buttonGrayscale";
-            this.buttonGrayscale.Size = new System.Drawing.Size(75, 23);
+            this.buttonGrayscale.Size = new System.Drawing.Size(87, 27);
             this.buttonGrayscale.TabIndex = 13;
             this.buttonGrayscale.Text = "Grayscale";
             this.buttonGrayscale.UseVisualStyleBackColor = true;
             this.buttonGrayscale.Click += new System.EventHandler(this.buttonGrayscale_Click);
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            // 
+            // UnsharpMaskingButton
+            // 
+            this.UnsharpMaskingButton.Location = new System.Drawing.Point(11, 80);
+            this.UnsharpMaskingButton.Name = "UnsharpMaskingButton";
+            this.UnsharpMaskingButton.Size = new System.Drawing.Size(83, 21);
+            this.UnsharpMaskingButton.TabIndex = 15;
+            this.UnsharpMaskingButton.Text = "UnsharpMasking";
+            this.UnsharpMaskingButton.UseVisualStyleBackColor = true;
+            this.UnsharpMaskingButton.Click += new System.EventHandler(this.UnsharpMaskingButton_Click);
+            // 
+            // MainForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(680, 473);
+            this.ClientSize = new System.Drawing.Size(793, 546);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.buttonLoad);
             this.Controls.Add(this.panelDestination);
@@ -101,6 +146,8 @@ namespace ComputerVision
         private System.Windows.Forms.Button buttonGrayscale;
         private System.Windows.Forms.OpenFileDialog openFileDialog;
         private System.Windows.Forms.Button MarkovButton;
+        private System.Windows.Forms.Button FtsButton;
+        private System.Windows.Forms.Button UnsharpMaskingButton;
     }
 }
 

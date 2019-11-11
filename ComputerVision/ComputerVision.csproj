@@ -54,9 +54,12 @@
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Operations\BasicAlgorithm.cs" />
+    <Compile Include="Operations\FTS.cs" />
     <Compile Include="Operations\Markov.cs" />
+    <Compile Include="Operations\UnsharpMasking.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="utils\Utils.cs" />
     <EmbeddedResource Include="MainForm.resx">
       <SubType>Designer</SubType>
       <DependentUpon>MainForm.cs</DependentUpon>
