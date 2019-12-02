@@ -1,18 +1,21 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1701178-9c14-4cc5-b4d6-f3696b52c6d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ComputerVision/Operations/FTS.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/Operations/UnsharpMasking.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ComputerVision/utils/Utils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ComputerVision/Operations/ConturFreiChen.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ComputerVision/Operations/ConturGabor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ComputerVision/Operations/ConturLaPlace.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ComputerVision/Operations/ConturPrewitt.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ComputerVision/Operations/ConturRoberts.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ComputerVision/Operations/Kirsch.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ComputerVision/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ComputerVision/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ComputerVision/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ComputerVision/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ComputerVision/ComputerVision.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerVision/ComputerVision.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ComputerVision/FastImage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerVision/FastImage.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ComputerVision/MainForm.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerVision/MainForm.Designer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ComputerVision/MainForm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerVision/MainForm.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ComputerVision/bin/Debug/ComputerVision.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerVision/bin/Debug/ComputerVision.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ComputerVision/bin/Debug/ComputerVision.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerVision/bin/Debug/ComputerVision.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ComputerVision/obj/Debug/ComputerVision.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerVision/obj/Debug/ComputerVision.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ComputerVision/obj/Debug/ComputerVision.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerVision/obj/Debug/ComputerVision.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ComputerVision/obj/Debug/ComputerVision.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerVision/obj/Debug/ComputerVision.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ComputerVision/obj/Debug/ComputerVision.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ComputerVision/obj/Debug/ComputerVision.pdb" afterDir="false" />
@@ -27,14 +30,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/ComputerVision/Operations/UnsharpMasking.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ComputerVision/Operations/ConturGabor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ComputerVision/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ComputerVision/utils/Utils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ComputerVision/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ComputerVision/Operations/ConturPrewitt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ComputerVision/MainForm.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ComputerVision/Operations/ConturRoberts.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ComputerVision/FastImage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ComputerVision/Operations/ConturLaPlace.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ComputerVision/Operations/UnsharpMasking.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ComputerVision/utils/Utils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ComputerVision/Operations/ConturFreiChen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ComputerVision/Operations/Markov.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ComputerVision/Operations/FTS.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ComputerVision/FastImage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ComputerVision/Operations/BasicAlgorithm.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ComputerVision/Operations/Kirsch.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -47,8 +57,14 @@
         <option value="$PROJECT_DIR$/ComputerVision/utils/Utils.cs" />
         <option value="$PROJECT_DIR$/ComputerVision/Operations/FTS.cs" />
         <option value="$PROJECT_DIR$/ComputerVision/FastImage.cs" />
-        <option value="$PROJECT_DIR$/ComputerVision/MainForm.cs" />
         <option value="$PROJECT_DIR$/ComputerVision/Operations/UnsharpMasking.cs" />
+        <option value="$PROJECT_DIR$/ComputerVision/Operations/Kirsch.cs" />
+        <option value="$PROJECT_DIR$/ComputerVision/Operations/ConturLaPlace.cs" />
+        <option value="$PROJECT_DIR$/ComputerVision/Operations/ConturRoberts.cs" />
+        <option value="$PROJECT_DIR$/ComputerVision/Operations/ConturPrewitt.cs" />
+        <option value="$PROJECT_DIR$/ComputerVision/Operations/ConturFreiChen.cs" />
+        <option value="$PROJECT_DIR$/ComputerVision/MainForm.cs" />
+        <option value="$PROJECT_DIR$/ComputerVision/Operations/ConturGabor.cs" />
       </list>
     </option>
   </component>
@@ -104,6 +120,8 @@
       <updated>1572873213815</updated>
       <workItem from="1572873215277" duration="6620000" />
       <workItem from="1573471168013" duration="5328000" />
+      <workItem from="1574075810461" duration="3651000" />
+      <workItem from="1574681180583" duration="4827000" />
     </task>
     <servers />
   </component>
@@ -135,6 +153,45 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ComputerVision/Operations/Kirsch.cs</url>
+          <line>43</line>
+          <properties documentPath="$PROJECT_DIR$/ComputerVision/Operations/Kirsch.cs" initialLine="43">
+            <startOffsets>
+              <option value="1131" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1164" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ComputerVision/Operations/Kirsch.cs</url>
+          <line>85</line>
+          <properties documentPath="$PROJECT_DIR$/ComputerVision/Operations/Kirsch.cs" initialLine="85">
+            <startOffsets>
+              <option value="2652" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2684" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ComputerVision/Operations/ConturGabor.cs</url>
+          <line>99</line>
+          <properties documentPath="$PROJECT_DIR$/ComputerVision/Operations/ConturGabor.cs" initialLine="99">
+            <startOffsets>
+              <option value="2862" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2874" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

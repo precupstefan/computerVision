@@ -14,10 +14,17 @@
         <e p="obj" t="ExcludeRecursive" />
         <e p="Operations" t="Include">
           <e p="BasicAlgorithm.cs" t="Include" />
+          <e p="ConturFreiChen.cs" t="Include" />
+          <e p="ConturGabor.cs" t="Include" />
+          <e p="ConturLaPlace.cs" t="Include" />
+          <e p="ConturPrewitt.cs" t="Include" />
+          <e p="ConturRoberts.cs" t="Include" />
           <e p="FTS.cs" t="Include" />
+          <e p="Kirsch.cs" t="Include" />
           <e p="Markov.cs" t="Include" />
           <e p="UnsharpMasking.cs" t="Include" />
         </e>
+        <e p="packages.config" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />

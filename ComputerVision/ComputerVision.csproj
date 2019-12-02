@@ -42,6 +42,10 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\portable-net40+sl4+win8+wp8\System.ValueTuple.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
@@ -54,7 +58,13 @@
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Operations\BasicAlgorithm.cs" />
+    <Compile Include="Operations\ConturFreiChen.cs" />
+    <Compile Include="Operations\ConturGabor.cs" />
+    <Compile Include="Operations\ConturLaPlace.cs" />
+    <Compile Include="Operations\ConturPrewitt.cs" />
+    <Compile Include="Operations\ConturRoberts.cs" />
     <Compile Include="Operations\FTS.cs" />
+    <Compile Include="Operations\Kirsch.cs" />
     <Compile Include="Operations\Markov.cs" />
     <Compile Include="Operations\UnsharpMasking.cs" />
     <Compile Include="Program.cs" />
@@ -74,6 +84,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -71,5 +71,35 @@ namespace ComputerVision
         {
             panelDestination.BackgroundImage = new UnsharpMasking().Compute(workImage);
         }
+
+        private void Kirsch_Click(object sender, EventArgs e)
+        {
+            panelDestination.BackgroundImage = new Kirsch().Compute(workImage);
+        }
+
+        private void ConturlaPlaceButton_Click(object sender, EventArgs e)
+        {
+            panelDestination.BackgroundImage = new ConturLaPlace().Compute(workImage);
+        }
+
+        private void ConturRoberts_Click(object sender, EventArgs e)
+        {
+            panelDestination.BackgroundImage = new ConturRoberts().Compute(workImage);
+        }
+
+        private void PrewittButton_Click(object sender, EventArgs e)
+        {
+            panelDestination.BackgroundImage = new ConturPrewitt().Compute(workImage);
+        }
+
+        private void freiChenButton_Click(object sender, EventArgs e)
+        {
+            panelDestination.BackgroundImage = new ConturFreiChen().Compute(workImage);
+        }
+
+        private void GaborButton_Click(object sender, EventArgs e)
+        {
+            panelDestination.BackgroundImage = new ConturGabor().Compute(workImage);
+        }
     }
 }

@@ -32,11 +32,17 @@ namespace ComputerVision
             this.panelDestination = new System.Windows.Forms.Panel();
             this.buttonLoad = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.freiChenButton = new System.Windows.Forms.Button();
+            this.PrewittButton = new System.Windows.Forms.Button();
+            this.ConturRoberts = new System.Windows.Forms.Button();
+            this.ConturlaPlaceButton = new System.Windows.Forms.Button();
+            this.Kirsch = new System.Windows.Forms.Button();
+            this.UnsharpMaskingButton = new System.Windows.Forms.Button();
             this.FtsButton = new System.Windows.Forms.Button();
             this.MarkovButton = new System.Windows.Forms.Button();
             this.buttonGrayscale = new System.Windows.Forms.Button();
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
-            this.UnsharpMaskingButton = new System.Windows.Forms.Button();
+            this.GaborButton = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -73,6 +79,12 @@ namespace ComputerVision
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.GaborButton);
+            this.panel1.Controls.Add(this.freiChenButton);
+            this.panel1.Controls.Add(this.PrewittButton);
+            this.panel1.Controls.Add(this.ConturRoberts);
+            this.panel1.Controls.Add(this.ConturlaPlaceButton);
+            this.panel1.Controls.Add(this.Kirsch);
             this.panel1.Controls.Add(this.UnsharpMaskingButton);
             this.panel1.Controls.Add(this.FtsButton);
             this.panel1.Controls.Add(this.MarkovButton);
@@ -81,6 +93,66 @@ namespace ComputerVision
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(373, 219);
             this.panel1.TabIndex = 3;
+            // 
+            // freiChenButton
+            // 
+            this.freiChenButton.Location = new System.Drawing.Point(100, 112);
+            this.freiChenButton.Name = "freiChenButton";
+            this.freiChenButton.Size = new System.Drawing.Size(87, 27);
+            this.freiChenButton.TabIndex = 20;
+            this.freiChenButton.Text = "FreiCHen";
+            this.freiChenButton.UseVisualStyleBackColor = true;
+            this.freiChenButton.Click += new System.EventHandler(this.freiChenButton_Click);
+            // 
+            // PrewittButton
+            // 
+            this.PrewittButton.Location = new System.Drawing.Point(194, 145);
+            this.PrewittButton.Name = "PrewittButton";
+            this.PrewittButton.Size = new System.Drawing.Size(87, 27);
+            this.PrewittButton.TabIndex = 19;
+            this.PrewittButton.Text = "Prewitt";
+            this.PrewittButton.UseVisualStyleBackColor = true;
+            this.PrewittButton.Click += new System.EventHandler(this.PrewittButton_Click);
+            // 
+            // ConturRoberts
+            // 
+            this.ConturRoberts.Location = new System.Drawing.Point(194, 179);
+            this.ConturRoberts.Name = "ConturRoberts";
+            this.ConturRoberts.Size = new System.Drawing.Size(87, 27);
+            this.ConturRoberts.TabIndex = 18;
+            this.ConturRoberts.Text = "Roberts";
+            this.ConturRoberts.UseVisualStyleBackColor = true;
+            this.ConturRoberts.Click += new System.EventHandler(this.ConturRoberts_Click);
+            // 
+            // ConturlaPlaceButton
+            // 
+            this.ConturlaPlaceButton.Location = new System.Drawing.Point(101, 145);
+            this.ConturlaPlaceButton.Name = "ConturlaPlaceButton";
+            this.ConturlaPlaceButton.Size = new System.Drawing.Size(87, 27);
+            this.ConturlaPlaceButton.TabIndex = 17;
+            this.ConturlaPlaceButton.Text = "Contur LaPlace";
+            this.ConturlaPlaceButton.UseVisualStyleBackColor = true;
+            this.ConturlaPlaceButton.Click += new System.EventHandler(this.ConturlaPlaceButton_Click);
+            // 
+            // Kirsch
+            // 
+            this.Kirsch.Location = new System.Drawing.Point(101, 179);
+            this.Kirsch.Name = "Kirsch";
+            this.Kirsch.Size = new System.Drawing.Size(87, 27);
+            this.Kirsch.TabIndex = 16;
+            this.Kirsch.Text = "Kirsch";
+            this.Kirsch.UseVisualStyleBackColor = true;
+            this.Kirsch.Click += new System.EventHandler(this.Kirsch_Click);
+            // 
+            // UnsharpMaskingButton
+            // 
+            this.UnsharpMaskingButton.Location = new System.Drawing.Point(10, 80);
+            this.UnsharpMaskingButton.Name = "UnsharpMaskingButton";
+            this.UnsharpMaskingButton.Size = new System.Drawing.Size(83, 21);
+            this.UnsharpMaskingButton.TabIndex = 15;
+            this.UnsharpMaskingButton.Text = "UnsharpMasking";
+            this.UnsharpMaskingButton.UseVisualStyleBackColor = true;
+            this.UnsharpMaskingButton.Click += new System.EventHandler(this.UnsharpMaskingButton_Click);
             // 
             // FtsButton
             // 
@@ -112,15 +184,15 @@ namespace ComputerVision
             this.buttonGrayscale.UseVisualStyleBackColor = true;
             this.buttonGrayscale.Click += new System.EventHandler(this.buttonGrayscale_Click);
             // 
-            // UnsharpMaskingButton
+            // GaborButton
             // 
-            this.UnsharpMaskingButton.Location = new System.Drawing.Point(11, 80);
-            this.UnsharpMaskingButton.Name = "UnsharpMaskingButton";
-            this.UnsharpMaskingButton.Size = new System.Drawing.Size(83, 21);
-            this.UnsharpMaskingButton.TabIndex = 15;
-            this.UnsharpMaskingButton.Text = "UnsharpMasking";
-            this.UnsharpMaskingButton.UseVisualStyleBackColor = true;
-            this.UnsharpMaskingButton.Click += new System.EventHandler(this.UnsharpMaskingButton_Click);
+            this.GaborButton.Location = new System.Drawing.Point(194, 112);
+            this.GaborButton.Name = "GaborButton";
+            this.GaborButton.Size = new System.Drawing.Size(87, 27);
+            this.GaborButton.TabIndex = 21;
+            this.GaborButton.Text = "Gabor";
+            this.GaborButton.UseVisualStyleBackColor = true;
+            this.GaborButton.Click += new System.EventHandler(this.GaborButton_Click);
             // 
             // MainForm
             // 
@@ -148,6 +220,12 @@ namespace ComputerVision
         private System.Windows.Forms.Button MarkovButton;
         private System.Windows.Forms.Button FtsButton;
         private System.Windows.Forms.Button UnsharpMaskingButton;
+        private System.Windows.Forms.Button Kirsch;
+        private System.Windows.Forms.Button ConturlaPlaceButton;
+        private System.Windows.Forms.Button ConturRoberts;
+        private System.Windows.Forms.Button PrewittButton;
+        private System.Windows.Forms.Button freiChenButton;
+        private System.Windows.Forms.Button GaborButton;
     }
 }
 
