@@ -66,6 +66,7 @@
     <Compile Include="Operations\FTS.cs" />
     <Compile Include="Operations\Kirsch.cs" />
     <Compile Include="Operations\Markov.cs" />
+    <Compile Include="Operations\Segmentare.cs" />
     <Compile Include="Operations\UnsharpMasking.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

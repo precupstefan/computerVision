@@ -32,6 +32,7 @@ namespace ComputerVision
             this.panelDestination = new System.Windows.Forms.Panel();
             this.buttonLoad = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.GaborButton = new System.Windows.Forms.Button();
             this.freiChenButton = new System.Windows.Forms.Button();
             this.PrewittButton = new System.Windows.Forms.Button();
             this.ConturRoberts = new System.Windows.Forms.Button();
@@ -42,7 +43,6 @@ namespace ComputerVision
             this.MarkovButton = new System.Windows.Forms.Button();
             this.buttonGrayscale = new System.Windows.Forms.Button();
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
-            this.GaborButton = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,6 +55,7 @@ namespace ComputerVision
             this.panelSource.Name = "panelSource";
             this.panelSource.Size = new System.Drawing.Size(373, 276);
             this.panelSource.TabIndex = 0;
+            this.panelSource.Click += new System.EventHandler(this.panelSource_Click);
             // 
             // panelDestination
             // 
@@ -93,6 +94,16 @@ namespace ComputerVision
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(373, 219);
             this.panel1.TabIndex = 3;
+            // 
+            // GaborButton
+            // 
+            this.GaborButton.Location = new System.Drawing.Point(194, 112);
+            this.GaborButton.Name = "GaborButton";
+            this.GaborButton.Size = new System.Drawing.Size(87, 27);
+            this.GaborButton.TabIndex = 21;
+            this.GaborButton.Text = "Gabor";
+            this.GaborButton.UseVisualStyleBackColor = true;
+            this.GaborButton.Click += new System.EventHandler(this.GaborButton_Click);
             // 
             // freiChenButton
             // 
@@ -183,16 +194,6 @@ namespace ComputerVision
             this.buttonGrayscale.Text = "Grayscale";
             this.buttonGrayscale.UseVisualStyleBackColor = true;
             this.buttonGrayscale.Click += new System.EventHandler(this.buttonGrayscale_Click);
-            // 
-            // GaborButton
-            // 
-            this.GaborButton.Location = new System.Drawing.Point(194, 112);
-            this.GaborButton.Name = "GaborButton";
-            this.GaborButton.Size = new System.Drawing.Size(87, 27);
-            this.GaborButton.TabIndex = 21;
-            this.GaborButton.Text = "Gabor";
-            this.GaborButton.UseVisualStyleBackColor = true;
-            this.GaborButton.Click += new System.EventHandler(this.GaborButton_Click);
             // 
             // MainForm
             // 

@@ -1,4 +1,6 @@
-﻿using System.Runtime;
+﻿using System;
+using System.Drawing;
+using System.Runtime;
 
 namespace ComputerVision.utils
 {
@@ -9,6 +11,11 @@ namespace ComputerVision.utils
             if (value < 0) return 0;
             if (value > 255) return 255;
             return value;
+        }
+
+        public static Byte GetGrayscale(Color color)
+        {
+            return (byte) ((color.R + color.B + color.G) / 3);
         }
     }
 }

@@ -22,6 +22,7 @@
           <e p="FTS.cs" t="Include" />
           <e p="Kirsch.cs" t="Include" />
           <e p="Markov.cs" t="Include" />
+          <e p="Segmentare.cs" t="Include" />
           <e p="UnsharpMasking.cs" t="Include" />
         </e>
         <e p="packages.config" t="Include" />

@@ -101,5 +101,14 @@ namespace ComputerVision
         {
             panelDestination.BackgroundImage = new ConturGabor().Compute(workImage);
         }
+
+        private void panelSource_Click(object sender, EventArgs e)
+        {
+            var eventArgs = (MouseEventArgs) e;
+            var point = new Point();
+            point.X = eventArgs.X * workImage.Width / panelSource.Width;
+            point.Y = eventArgs.Y * workImage.Height / panelSource.Height;
+            panelDestination.BackgroundImage = new Segmentare(workImage,panelSource.Width,panelSource.Height).Compute(point);
+        }
     }
 }
